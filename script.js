@@ -24,8 +24,6 @@ fetch(forecastUrl).then(response => response.json()).then(data => {
 }).catch(error => {console.error('Error fetching hourly forecast data:', error);
 alert('Error fetching hourly forecast data. Please try again.');
 });
-
-
 }
 
 
@@ -85,7 +83,6 @@ const hourlyItemHtml =`
 `;
 hourlyForecastDiv.innerHTML += hourlyItemHtml;
     });
-    
     }
 
 
